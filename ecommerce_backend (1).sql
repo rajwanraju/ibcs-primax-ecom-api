@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 20, 2021 at 03:17 AM
+-- Generation Time: Dec 26, 2021 at 03:32 AM
 -- Server version: 5.7.33
 -- PHP Version: 7.4.19
 
@@ -121,12 +121,14 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`id`, `order_id`, `customer_id`, `status`, `sub_total`, `grand_total`, `payment_method`, `products`, `name`, `phone_number`, `email`, `shipping_address`, `created_at`, `updated_at`) VALUES
-(5, 'ES-2152601810', 3, 'Shipped', '20.000000', '20.000000', NULL, '[{\"id\":2,\"name\":\"Test Product\",\"slug\":\"test-product\",\"detail\":\"test product\",\"image\":\"\\/storage\\/products\\/1639233710.jpg\",\"price\":10,\"quantity\":2,\"created_at\":\"11\\/12\\/2021\",\"updated_at\":\"11\\/12\\/2021\",\"totalPrice\":20}]', 'Rajwan1', '01737909454', 'rajwan@mail.com', 'sdfsd', '2021-12-16 13:07:17', '2021-12-19 20:58:27'),
+(5, 'ES-2152601810', 3, 'Shipped', '20.000000', '20.000000', NULL, '[{\"id\":2,\"name\":\"Test Product\",\"slug\":\"test-product\",\"detail\":\"test product\",\"image\":\"\\/storage\\/products\\/1639233710.jpg\",\"price\":10,\"quantity\":2,\"created_at\":\"11\\/12\\/2021\",\"updated_at\":\"11\\/12\\/2021\",\"totalPrice\":20}]', 'Rajwan1', '017370099882', 'rajwan@mail.com', 'Dhaka', '2021-12-16 13:07:17', '2021-12-25 05:37:13'),
 (6, 'ES-2285820534', 3, 'Processing', '20.000000', '20.000000', NULL, '[{\"id\":2,\"name\":\"Test Product\",\"slug\":\"test-product\",\"detail\":\"test product\",\"image\":\"\\/storage\\/products\\/1639233710.jpg\",\"price\":10,\"quantity\":2,\"created_at\":\"11\\/12\\/2021\",\"updated_at\":\"11\\/12\\/2021\",\"totalPrice\":20}]', 'Rajwan1', '01737909454', 'rajwan@mail.com', 'sdfsd', '2021-12-16 13:07:39', '2021-12-19 08:42:18'),
 (7, 'ES-3210360829', 3, 'Processing', '20.000000', '20.000000', NULL, '[{\"id\":2,\"name\":\"Test Product\",\"slug\":\"test-product\",\"detail\":\"test product\",\"image\":\"\\/storage\\/products\\/1639233710.jpg\",\"price\":10,\"quantity\":2,\"created_at\":\"11\\/12\\/2021\",\"updated_at\":\"11\\/12\\/2021\",\"totalPrice\":20}]', 'Rajwan1', '01737909454', 'rajwan@mail.com', 'sdfsd', '2021-12-16 13:09:58', '2021-12-19 08:45:32'),
-(8, 'ES-1074919490', 3, 'Pending', '100.000000', '100.000000', NULL, '[{\"id\":1,\"name\":\"Test Product 2\",\"slug\":\"test-product-2\",\"detail\":\"test product2\",\"image\":\"\\/storage\\/products\\/1639233710.jpg\",\"price\":20,\"quantity\":5,\"created_at\":\"11\\/12\\/2021\",\"updated_at\":\"11\\/12\\/2021\",\"totalPrice\":100}]', 'Rajwan', '01737909454', 'rajwan@mail.com', '51/A/1 West razabazer ,tejgoan Dhaka', '2021-12-16 13:11:43', '2021-12-16 13:11:43'),
-(11, 'ES-3222840719', 3, 'Pending', '3160.000000', '3160.000000', NULL, '[{\"id\":3,\"name\":\"Test product 3\",\"slug\":\"test-product-3\",\"detail\":\"<p>Test product 3<\\/p>\",\"image\":\"\\/storage\\/products\\/product-1639744681.png\",\"price\":22,\"quantity\":100,\"created_at\":\"17\\/12\\/2021\",\"updated_at\":\"17\\/12\\/2021\",\"totalPrice\":2200},{\"id\":2,\"name\":\"Test Product\",\"slug\":\"test-product\",\"detail\":\"test product\",\"image\":\"\\/storage\\/products\\/1639233710.jpg\",\"price\":10,\"quantity\":96,\"created_at\":\"11\\/12\\/2021\",\"updated_at\":\"17\\/12\\/2021\",\"totalPrice\":960}]', 'Rajwan', '01737909454', 'rajwan@mail.com', 'sdfsd', '2021-12-19 08:04:04', '2021-12-19 08:04:04'),
-(20, 'ES-3018232109', 3, 'Pending', '3160.000000', '3160.000000', NULL, '[{\"id\":3,\"name\":\"Test product 3\",\"slug\":\"test-product-3\",\"detail\":\"<p>Test product 3<\\/p>\",\"image\":\"\\/storage\\/products\\/product-1639744681.png\",\"price\":22,\"quantity\":100,\"created_at\":\"17\\/12\\/2021\",\"updated_at\":\"17\\/12\\/2021\",\"totalPrice\":2200},{\"id\":2,\"name\":\"Test Product\",\"slug\":\"test-product\",\"detail\":\"test product\",\"image\":\"\\/storage\\/products\\/1639233710.jpg\",\"price\":10,\"quantity\":96,\"created_at\":\"11\\/12\\/2021\",\"updated_at\":\"17\\/12\\/2021\",\"totalPrice\":960}]', 'Rajwan', '01737909454', 'rajwan@mail.com', 'sdfsd', '2021-12-19 08:19:09', '2021-12-19 08:19:09');
+(8, 'ES-1074919490', 3, 'Pending', '100.000000', '100.000000', NULL, '[{\"id\":1,\"name\":\"Test Product 2\",\"slug\":\"test-product-2\",\"detail\":\"test product2\",\"image\":\"\\/storage\\/products\\/1639233710.jpg\",\"price\":20,\"quantity\":5,\"created_at\":\"11\\/12\\/2021\",\"updated_at\":\"11\\/12\\/2021\",\"totalPrice\":100}]', 'Rajwan Ullah', '01737909454', 'rajwan@mail.com', '51/A/1 West razabazer ,tejgoan Dhaka', '2021-12-16 13:11:43', '2021-12-25 06:17:04'),
+(11, 'ES-3222840719', 3, 'Pending', '3160.000000', '3160.000000', NULL, '[{\"id\":3,\"name\":\"Test product 3\",\"slug\":\"test-product-3\",\"detail\":\"<p>Test product 3<\\/p>\",\"image\":\"\\/storage\\/products\\/product-1639744681.png\",\"price\":22,\"quantity\":100,\"created_at\":\"17\\/12\\/2021\",\"updated_at\":\"17\\/12\\/2021\",\"totalPrice\":2200},{\"id\":2,\"name\":\"Test Product\",\"slug\":\"test-product\",\"detail\":\"test product\",\"image\":\"\\/storage\\/products\\/1639233710.jpg\",\"price\":10,\"quantity\":96,\"created_at\":\"11\\/12\\/2021\",\"updated_at\":\"17\\/12\\/2021\",\"totalPrice\":960}]', 'Raj 1', '01737909454', 'rajwan@mail.com', 'sdfsd', '2021-12-19 08:04:04', '2021-12-25 06:19:02'),
+(20, 'ES-3018232109', 3, 'Pending', '3160.000000', '3160.000000', NULL, '[{\"id\":3,\"name\":\"Test product 3\",\"slug\":\"test-product-3\",\"detail\":\"<p>Test product 3<\\/p>\",\"image\":\"\\/storage\\/products\\/product-1639744681.png\",\"price\":22,\"quantity\":100,\"created_at\":\"17\\/12\\/2021\",\"updated_at\":\"17\\/12\\/2021\",\"totalPrice\":2200},{\"id\":2,\"name\":\"Test Product\",\"slug\":\"test-product\",\"detail\":\"test product\",\"image\":\"\\/storage\\/products\\/1639233710.jpg\",\"price\":10,\"quantity\":96,\"created_at\":\"11\\/12\\/2021\",\"updated_at\":\"17\\/12\\/2021\",\"totalPrice\":960}]', 'raj11', '01737009980', 'rajwan@mail.com', 'Dhaka', '2021-12-19 08:19:09', '2021-12-25 11:25:42'),
+(21, 'ES-112823401', 3, 'Pending', '216.000000', '216.000000', NULL, '[{\"id\":4,\"name\":\"Product 4\",\"slug\":\"product-4\",\"detail\":\"<p> Best Product<\\/p>\",\"image\":\"\\/storage\\/products\\/product-1639744681.png\",\"price\":27,\"quantity\":8,\"created_at\":\"19\\/12\\/2021\",\"updated_at\":\"19\\/12\\/2021\",\"totalPrice\":216}]', 'Rajwan Ullah', '01737909454', 'rajwan@mail.com', 'Dhaka', '2021-12-25 10:12:17', '2021-12-25 10:12:17'),
+(22, 'ES-960276117', 3, 'Pending', '216.000000', '216.000000', NULL, '[{\"id\":4,\"name\":\"Product 4\",\"slug\":\"product-4\",\"detail\":\"<p> Best Product<\\/p>\",\"image\":\"\\/storage\\/products\\/product-1639744681.png\",\"price\":27,\"quantity\":8,\"created_at\":\"19\\/12\\/2021\",\"updated_at\":\"19\\/12\\/2021\",\"totalPrice\":216}]', 'Rajwan Ullah', '01737909454', 'rajwan@mail.com', 'sdfsd', '2021-12-25 10:19:34', '2021-12-25 10:19:34');
 
 -- --------------------------------------------------------
 
@@ -149,7 +151,15 @@ CREATE TABLE `order_histories` (
 --
 
 INSERT INTO `order_histories` (`id`, `order_id`, `edit_at`, `edit_by`, `edit_value`, `created_at`, `updated_at`) VALUES
-(1, 5, 'status', 'admin', 'Shipped', '2021-12-19 20:58:27', '2021-12-19 20:58:27');
+(1, 5, 'status', 'admin', 'Shipped', '2021-12-19 20:58:27', '2021-12-19 20:58:27'),
+(2, 20, 'phone_number', 'Rajwan Ullah', '01737009988', '2021-12-25 05:40:05', '2021-12-25 05:40:05'),
+(3, 20, 'shipping_address', 'Rajwan Ullah', 'Dhaka', '2021-12-25 05:40:05', '2021-12-25 05:40:05'),
+(4, 20, 'phone_number', 'Rajwan Ullah', '01737009981', '2021-12-25 05:42:25', '2021-12-25 05:42:25'),
+(5, 8, 'phone_number', 'Rajwan Ullah', '01737909454', '2021-12-25 06:17:04', '2021-12-25 06:17:04'),
+(6, 11, 'phone_number', 'Rajwan Ullah', '01737909454', '2021-12-25 06:18:24', '2021-12-25 06:18:24'),
+(7, 11, 'phone_number', 'Rajwan Ullah', '01737909454', '2021-12-25 06:19:02', '2021-12-25 06:19:02'),
+(8, 20, 'phone_number', 'Rajwan Ullah', '01737009980', '2021-12-25 11:25:42', '2021-12-25 11:25:42'),
+(9, 20, 'phone_number', 'Rajwan Ullah', '01737009980', '2021-12-25 11:25:42', '2021-12-25 11:25:42');
 
 -- --------------------------------------------------------
 
@@ -189,7 +199,7 @@ INSERT INTO `personal_access_tokens` (`id`, `tokenable_type`, `tokenable_id`, `n
 (1, 'App\\Models\\User', 1, 'MyApp', '681200e7893773a543e53f4981e31c222e5c9aa5b90811e90a3ae0df680ad6a9', '[\"*\"]', NULL, '2021-12-11 05:43:17', '2021-12-11 05:43:17'),
 (2, 'App\\Models\\User', 1, 'MyApp', '8d528877460bfba325b800c28b4e151cba3606d33b230544823a8cab250f8cad', '[\"*\"]', NULL, '2021-12-11 05:44:07', '2021-12-11 05:44:07'),
 (3, 'App\\Models\\User', 1, 'MyApp', 'de94c90d3b6697f59651c18bbd9877f1ec5926e532288676fc33d886aa3dae6f', '[\"*\"]', NULL, '2021-12-11 05:47:02', '2021-12-11 05:47:02'),
-(4, 'App\\Models\\User', 1, 'MyApp', 'bf11c7c9422ccc77c0de2da69c5020989d30087846ceac2589339ab6d311cdc6', '[\"*\"]', '2021-12-19 20:44:56', '2021-12-11 05:49:24', '2021-12-19 20:44:56'),
+(4, 'App\\Models\\User', 1, 'MyApp', 'bf11c7c9422ccc77c0de2da69c5020989d30087846ceac2589339ab6d311cdc6', '[\"*\"]', '2021-12-25 10:34:17', '2021-12-11 05:49:24', '2021-12-25 10:34:17'),
 (5, 'App\\Models\\User', 1, 'MyApp', '7aae571ef1901608c12d8d7657b9cde8cdd04944abe3beb6227ceec1f79bcd4e', '[\"*\"]', NULL, '2021-12-11 23:51:07', '2021-12-11 23:51:07'),
 (6, 'App\\Models\\User', 2, 'MyApp', 'bea235cc4200c6d66460a4585da1d6b4050e15d0506c6e7c988170f5bcd262b3', '[\"*\"]', NULL, '2021-12-12 00:40:18', '2021-12-12 00:40:18'),
 (7, 'App\\Models\\User', 2, 'MyApp', '93a99f33d0d17371c27c2333b71ed9f31dfe86d4a56ccc681b0b34b7ac669dac', '[\"*\"]', NULL, '2021-12-12 00:43:36', '2021-12-12 00:43:36'),
@@ -219,7 +229,23 @@ INSERT INTO `personal_access_tokens` (`id`, `tokenable_type`, `tokenable_id`, `n
 (31, 'App\\Models\\User', 1, 'MyApp', 'c23d05cf174b9c26389edc2fecd7a7f53185a1f00d19977e53ce09a8980a49c3', '[\"*\"]', '2021-12-19 20:58:27', '2021-12-19 08:37:18', '2021-12-19 20:58:27'),
 (32, 'App\\Models\\User', 3, 'MyApp', '81eb7659290cca9084fcc1b440e79bb2b592ea7106c97d1900381c7c21fd3828', '[\"*\"]', '2021-12-19 21:04:37', '2021-12-19 20:58:58', '2021-12-19 21:04:37'),
 (33, 'App\\Models\\User', 3, 'MyApp', '585e7f6b92abcab6d310e019854716a9b7e3d116258171231f7300745f86f671', '[\"*\"]', '2021-12-19 21:09:19', '2021-12-19 21:06:57', '2021-12-19 21:09:19'),
-(34, 'App\\Models\\User', 3, 'MyApp', '0fd41aaf720f396a5969eadba490d692bc33eaa7f18d7593370486a4dab855ab', '[\"*\"]', NULL, '2021-12-19 21:13:33', '2021-12-19 21:13:33');
+(34, 'App\\Models\\User', 3, 'MyApp', '0fd41aaf720f396a5969eadba490d692bc33eaa7f18d7593370486a4dab855ab', '[\"*\"]', NULL, '2021-12-19 21:13:33', '2021-12-19 21:13:33'),
+(35, 'App\\Models\\User', 1, 'MyApp', '89e9dd30ea969f15c9825ff1fda4db3e3d9cabf652442a731efcdf066c3bca17', '[\"*\"]', '2021-12-25 03:52:08', '2021-12-25 03:04:02', '2021-12-25 03:52:08'),
+(36, 'App\\Models\\User', 3, 'MyApp', 'c7b984f47dbb57b20b9c9b7ef6a766faed62e613d836021360614a94f7554eba', '[\"*\"]', '2021-12-25 05:42:52', '2021-12-25 04:07:36', '2021-12-25 05:42:52'),
+(37, 'App\\Models\\User', 3, 'MyApp', '289362c997d7799055cdf370afcb7f699c37954af5ecd2ad55785da897a265f0', '[\"*\"]', '2021-12-25 04:51:12', '2021-12-25 04:26:00', '2021-12-25 04:51:12'),
+(38, 'App\\Models\\User', 3, 'MyApp', '0675f8029560a8c20e603f1df020b9ffcb7f481200a203b6c0df53e1b3b5ba40', '[\"*\"]', '2021-12-25 11:23:10', '2021-12-25 05:30:53', '2021-12-25 11:23:10'),
+(39, 'App\\Models\\User', 3, 'MyApp', 'e5cb6fc4204f5f45112122e098e3094ae307775b40976defec08cb05c3ba2109', '[\"*\"]', '2021-12-25 06:19:16', '2021-12-25 05:48:15', '2021-12-25 06:19:16'),
+(40, 'App\\Models\\User', 1, 'MyApp', '90fd3ce01e7e56c290acb065ed55ae4022fb564d2e076800e6bb53fe6dc0fe55', '[\"*\"]', '2021-12-25 07:43:04', '2021-12-25 06:36:27', '2021-12-25 07:43:04'),
+(41, 'App\\Models\\User', 3, 'MyApp', '51ce2874b19cf758c7639a732c0f0c3e72b26e3a024d4c2627a9ea93514b115b', '[\"*\"]', NULL, '2021-12-25 10:11:15', '2021-12-25 10:11:15'),
+(42, 'App\\Models\\User', 3, 'MyApp', 'ff0704c53b9fb6e3215b426cae65d45af046dd1bcb52fc0ff167020a7e17688f', '[\"*\"]', '2021-12-25 10:11:25', '2021-12-25 10:11:22', '2021-12-25 10:11:25'),
+(43, 'App\\Models\\User', 3, 'MyApp', '36852df74c78b8fe3f0357ea23ba1629c006084ae98359fe8c0ee9bcdcb41190', '[\"*\"]', '2021-12-25 10:12:17', '2021-12-25 10:12:00', '2021-12-25 10:12:17'),
+(44, 'App\\Models\\User', 3, 'MyApp', 'b76115fcfe337c4517056713842686f4b5b559ee775f72e3653d8fc20c69ec60', '[\"*\"]', '2021-12-25 10:12:39', '2021-12-25 10:12:31', '2021-12-25 10:12:39'),
+(45, 'App\\Models\\User', 3, 'MyApp', 'ebb803da9036ef669c8fc784fa9eb85849c66fd6589a72850cf126e72de31cd7', '[\"*\"]', NULL, '2021-12-25 10:17:28', '2021-12-25 10:17:28'),
+(46, 'App\\Models\\User', 3, 'MyApp', 'd103d6d37ce5acf3d41b2f154daf978a0bdfeaff1c31119c0a3e55b27a2ffde5', '[\"*\"]', '2021-12-25 10:45:06', '2021-12-25 10:19:12', '2021-12-25 10:45:06'),
+(47, 'App\\Models\\User', 1, 'MyApp', '926faf11e3e5d21e0bafd333d01364c772dabe521ae95e94012d8bc424af385a', '[\"*\"]', '2021-12-25 10:55:52', '2021-12-25 10:24:58', '2021-12-25 10:55:52'),
+(48, 'App\\Models\\User', 1, 'MyApp', 'd0b3bf2eabc0a1ab829689397fe3dd83974eb37797ae65563e43ac714e25830c', '[\"*\"]', '2021-12-25 10:49:12', '2021-12-25 10:46:48', '2021-12-25 10:49:12'),
+(49, 'App\\Models\\User', 3, 'MyApp', '56c0d3529bf3e79ad0075013a1c77b97fabadf40dd8267c56be98b57014c7e6f', '[\"*\"]', '2021-12-25 11:25:42', '2021-12-25 11:23:40', '2021-12-25 11:25:42'),
+(50, 'App\\Models\\User', 1, 'MyApp', '7355edf0c6719995bc840e136e9a17f545c0b2a1d2b6f550af1fcd2fac25d647', '[\"*\"]', '2021-12-25 11:27:35', '2021-12-25 11:26:35', '2021-12-25 11:27:35');
 
 -- --------------------------------------------------------
 
@@ -248,7 +274,8 @@ INSERT INTO `products` (`id`, `name`, `slug`, `image`, `quantity`, `price`, `det
 (1, 'Test Product 2', 'test-product-2', '1639233710.jpg', 100, 20, 'test product2', 1, '2021-12-11 08:56:04', '2021-12-11 08:56:04'),
 (2, 'Test Product', 'test-product', '1639233710.jpg', 96, 10, 'test product', 1, '2021-12-11 08:56:34', '2021-12-17 08:31:55'),
 (3, 'Test product 3', 'test-product-3', 'product-1639744681.png', 100, 22, '<p>Test product 3</p>', 0, '2021-12-17 06:38:06', '2021-12-17 06:38:06'),
-(4, 'Product 4', 'product-4', 'product-1639744681.png', 8, 27, '<p> Best Product</p>', 0, '2021-12-19 08:25:14', '2021-12-19 08:34:44');
+(4, 'Product 4', 'product-4', 'product-1639744681.png', 10, 27, '<p> Best Product</p>', 0, '2021-12-19 08:25:14', '2021-12-25 11:26:53'),
+(5, 'Test product 5', 'test-product-5', 'product-1640451331.png', 23, 212, '<p>Test product 5</p>', 0, '2021-12-25 10:55:52', '2021-12-25 10:55:52');
 
 -- --------------------------------------------------------
 
@@ -370,25 +397,25 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `order_histories`
 --
 ALTER TABLE `order_histories`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `personal_access_tokens`
 --
 ALTER TABLE `personal_access_tokens`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
 
 --
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `users`
